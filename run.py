@@ -9,7 +9,7 @@ def main():
    
    if final_path.exists():
       print('file exists\n')
-   else: FileNotFoundError
+   else: raise FileExistsError
    
    models = {1: 'tiny', 2: 'base', 3: 'small', 4: 'medium', 5: 'large'}
    
@@ -27,4 +27,4 @@ def main():
 
 if __name__ == '__main__':
    main()
-   
+      
