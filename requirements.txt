@@ -1,0 +1,2 @@
+openai-whisper==20230918
+torch==2.1.0
